@@ -25,3 +25,6 @@ jobs:
 
     - name: test
       run: go test -v ./...
+
+    - name: build-protoc-gen-fastmarshal
+      run: make protoc-gen-fastmarshal
