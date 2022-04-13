@@ -27,7 +27,7 @@ jobs:
         run: go test -v ./...
 
       - name: test-example
-        run: cd example && go test -v  ./example/... && cd ..
+        run: cd example && go test -v ./... && cd ..
 
       - name: build-protoc-gen-fastmarshal
         run: go build ./cmd/protoc-gen-fastmarshal
